@@ -1,8 +1,8 @@
-require(['jslib/three.min.js'], function() {
-    let THREE = require('jslib/three.min.js')
+require(['sc/jslib/three.min.js'], function() {
+    let THREE = require('sc/jslib/three.min.js')
     window.THREE = THREE;
 
-    require(['jslib/GLTFLoader.js'], function() {
+    require(['sc/jslib/GLTFLoader.js'], function() {
         class App {
             constructor(canvas, model, animations) {
                 this.scene = App.createScene()
